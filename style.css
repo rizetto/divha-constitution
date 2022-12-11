@@ -1,0 +1,191 @@
+* {
+  margin: 0rem;
+  border: 0rem;
+}
+
+.vid1 {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  opacity: 0.9;
+  animation: slideme 3s ease;
+}
+.ph {
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  font-size: 4.5rem;
+  color: yellow;
+  text-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+  white-space: nowrap;
+  animation: slideme 3s ease;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  float: left;
+  margin: 2rem;
+  margin-bottom: 12rem;
+  object-fit: cover;
+}
+
+.img1 {
+  margin-bottom: 4rem;
+}
+.img3 {
+  margin-bottom: 15rem;
+}
+.img4 {
+  margin-bottom: 35rem;
+}
+
+.tax {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 4rem;
+  text-shadow: 5px 5px 5px black;
+  cursor: pointer;
+}
+.era {
+  color: yellow;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.border1,
+.border2,
+.border3 {
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: white;
+  opacity: 0.7;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin: 2rem;
+  margin-bottom: 0rem;
+}
+.Username {
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.at {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: small;
+  color: cyan;
+}
+.tax_meaning,
+.box_p_era ~ p,
+.box_s_era ~ p,
+.box_a_era ~ p {
+  color: white;
+  text-align: justify;
+  font-family: Calibri;
+  margin: 2rem;
+  margin-top: 1rem;
+  line-height: 30px;
+}
+
+.body1,
+.body2,
+.body3,
+.body4 {
+  background-color: #111112d3;
+  width: auto;
+  border-radius: 1rem;
+  margin: 2rem;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(192, 245, 0);
+}
+.bar {
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.541);
+  position: fixed;
+  top: 29rem;
+  border-top: 3px;
+  border-style: solid;
+  border-color: skyblue;
+}
+.author,
+.Divine,
+.harth {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 1rem;
+  left: 4rem;
+  font-size: 1rem;
+}
+.Divine,
+.harth {
+  width: 200px;
+  top: -70px;
+  left: 20rem;
+  font-size: 1rem;
+}
+.harth {
+  top: -160px;
+  left: 40rem;
+}
+.img5,
+.img6 {
+  position: relative;
+  top: -15px;
+  left: 15rem;
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+.img6 {
+  top: -105px;
+  left: 35rem;
+}
+
+.vid2 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 18rem;
+  top: 155rem;
+  margin-bottom: 10rem;
+}
+body {
+  background-image: url(/money.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200rem;
+  background-attachment: fixed;
+}
+
+@keyframes slideme {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
